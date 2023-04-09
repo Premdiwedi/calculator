@@ -1,0 +1,40 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.main-block {
+    height: 100vh;
+    width: 100vw;
+    border: 2px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to top,red,pink,navy);
+}
+.main-block table {
+    border-collapse: collapse;
+    border: none;
+    color: wheat;
+    
+    background-color: rgba(0, 0, 0, 0.507);
+}
+.main-block td {
+    height: 30px;
+    font-size: 25px;
+    width: 30px;
+    padding: 15px;
+    text-align: center;
+    cursor: pointer;
+    transition: all;
+    /* transition-duration: 1s; */
+}
+#ans {
+    background-color: rgb(112, 94, 94);
+    color: wheat;
+}
+
+.main-block td:hover{
+    box-shadow: 2px 2px 10px 10px #888888;
+    /* position: relative;
+    top: 2px; */
+}
